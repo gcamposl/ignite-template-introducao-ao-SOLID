@@ -18,15 +18,15 @@
     
     Para que esse teste passe, é necessário que o método `create` do arquivo **src/modules/users/repositories/implementations/UsersRepository** permita receber o `name` e `email` de um usuário, crie um usuário a partir do model (que foi completado no teste anterior).
     
-- [] **Should be able to list all users**
+- [x?] **Should be able to list all users**
     
     Para que esse teste passe, é necessário que o método `list` do arquivo **src/modules/users/repositories/implementations/UsersRepository** retorne a lista de todos os usuários cadastrados na aplicação.
     
-- [] **Should be able to find user by ID**
+- [x?] **Should be able to find user by ID**
     
     Para que esse teste passe, é necessário que o método `findById` do arquivo **src/modules/users/repositories/implementations/UsersRepository** receba o `id` ****de um usuário e ****retorne o usuário que possui o mesmo `id`.
     
-- [] **Should be able to find user by e-mail address**
+- [x?] **Should be able to find user by e-mail address**
     
     Para que esse teste passe, é necessário que o método `findByEmail` do arquivo **src/modules/users/repositories/implementations/UsersRepository** receba o `email` ****de um usuário e ****retorne o usuário que possui o mesmo `email`.
     
@@ -82,8 +82,6 @@
     ```tsx
     throw new Error("Mensagem do erro");
     ```
-
-- [] 
 
 ### Testes das rotas...
 
